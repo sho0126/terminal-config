@@ -1,0 +1,14 @@
+layout {
+    tab name="dev" focus=true {
+        pane split_direction="vertical" {
+            pane split_direction="vertical" size="60%" {
+                pane name="files" size="20%" command="yazi"
+                pane name="editor" size="80%" focus=true
+            }
+            pane split_direction="horizontal" size="40%" {
+                pane name="ai" size="50%" command="claude"
+                pane name="git" size="50%" command="lazygit"
+            }
+        }
+    }
+}

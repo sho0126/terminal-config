@@ -1,4 +1,4 @@
-# dotfiles
+# terminal-config
 
 Ghostty + zellij ベースの軽量CLI開発環境。
 
@@ -19,8 +19,8 @@ Ghostty + zellij ベースの軽量CLI開発環境。
 ## セットアップ
 
 ```bash
-git clone https://github.com/sho0126/dotfiles.git ~/dotfiles
-cd ~/dotfiles
+git clone https://github.com/sho0126/terminal-config.git ~/terminal-config
+cd ~/terminal-config
 chmod +x install.sh
 ./install.sh
 source ~/.zshrc
